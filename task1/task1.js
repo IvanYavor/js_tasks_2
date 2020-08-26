@@ -18,7 +18,8 @@ function main(start, end, divider, isDivided, withRemainder) {
     
     // check range
     if(start > end) {
-        return;
+        console.log("Invalid range input.");
+        return -1;
     }
 
     if(isDivided) {
